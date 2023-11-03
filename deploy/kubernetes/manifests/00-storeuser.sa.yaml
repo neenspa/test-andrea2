@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: test-andrea2
+    app.kubernetes.io/name: test-andrea2
+    rht-gitops.com/janus-argocd: test-andrea2
+  name: storeuser-sa
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    backstage.io/kubernetes-id: test-andrea2
+    app.kubernetes.io/name: test-andrea2
+    rht-gitops.com/janus-argocd: test-andrea2
+  name: storeuseradmin-sa
